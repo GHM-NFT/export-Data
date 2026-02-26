@@ -1,0 +1,31 @@
+Setting,Value,Notes
+project_name,GHM – Mythic Icons,Display only
+default_locale,en,JSON language (on-chain)
+secondary_languages,zh-Hans,"Secondaries: zh-Hans,el,ja"
+onchain_lang,en,On-chain = English (web localized)
+external_url_base,https://ghm.art/nft,Base for external_url
+operator_filter_default,on,on/off
+operator_policy_note,Respect creator royalties; allow major marketplaces.,Short note
+freeze_after_days,7,QA window (days)
+standard_default,721,721/1155
+edition_size_default,,Optional default for editions
+contract_factory,Zora,Manifold/Zora/OpenSea/Custom
+collection_address,,Canonical collection address (per series if needed)
+collection_slug,,Platform slug (for URLs)
+license_url_default,,Default license URL
+background_color_default,,HEX without # (e.g. FFFFFF)
+royalty_bps_default,,e.g. 750
+fee_recipient_default,,Royalty receiver wallet
+reveal_mode_default,,e.g. delayed / instant
+reveal_date_default,,ISO date/time when delayed
+freeze_policy_default,,Policy label
+freeze_date_default,,ISO date for freeze
+primary_mint_platform_default,,e.g. OpenSea / Manifold
+est_gas_mint_default,,Estimated gas for single mint
+est_gas_batch_default,,Estimated gas for batch mint
+license_type_default,,Default license type
+terms_url_default,,Default terms URL
+physical_terms_url_default,,Default physical terms URL
+marketplace_targets_default,,Comma-separated marketplaces
+canonical_domain_or_ENS_default,,Canonical domain or ENS
+target_fiat_price_default,,Target fiat price
